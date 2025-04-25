@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kamil.kielich\\Desktop\\test_dotnet_web_apis\\TodoApp\\TodoApp.csproj": {}
+    "/Volumes/EXTERNAL_US/Programming/Todo/TodoApp/TodoApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kamil.kielich\\Desktop\\test_dotnet_web_apis\\TodoApp\\TodoApp.csproj": {
+    "/Volumes/EXTERNAL_US/Programming/Todo/TodoApp/TodoApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kamil.kielich\\Desktop\\test_dotnet_web_apis\\TodoApp\\TodoApp.csproj",
+        "projectUniqueName": "/Volumes/EXTERNAL_US/Programming/Todo/TodoApp/TodoApp.csproj",
         "projectName": "TodoApp",
-        "projectPath": "C:\\Users\\kamil.kielich\\Desktop\\test_dotnet_web_apis\\TodoApp\\TodoApp.csproj",
-        "packagesPath": "C:\\Users\\kamil.kielich\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kamil.kielich\\Desktop\\test_dotnet_web_apis\\TodoApp\\obj\\",
+        "projectPath": "/Volumes/EXTERNAL_US/Programming/Todo/TodoApp/TodoApp.csproj",
+        "packagesPath": "/Users/kamil/.nuget/packages/",
+        "outputPath": "/Volumes/EXTERNAL_US/Programming/Todo/TodoApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kamil.kielich\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/kamil/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -74,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

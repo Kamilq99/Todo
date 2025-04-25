@@ -1,13 +1,15 @@
-CREATE TABLE Tasks (
-    id SERIAL PRIMARY KEY,
-    name VARCHAR(255) NOT NULL,
-    is_done BOOLEAN 
+CREATE TABLE tasks (
+    Id SERIAL PRIMARY KEY,
+    Name VARCHAR(255) NOT NULL,
+    IsDone BOOLEAN 
 );
 
-SELECT * FROM Tasks
-
-INSERT INTO Tasks (name, is_done) VALUES ('Task 1', false);
-
-ALTER TABLE Tasks RENAME TO tasks;
-
 SELECT * FROM tasks
+
+INSERT INTO tasks (Name, IsDone) VALUES ('Buy milk', false);
+INSERT INTO tasks (Name, IsDone) VALUES ('Buy eggs', false);
+INSERT INTO tasks (Name, IsDone) VALUES ('Buy bread', false);
+
+ALTER TABLE tasks RENAME COLUMN id TO Id;
+ALTER TABLE tasks RENAME COLUMN Isdone TO IsDone;
+ALTER TABLE tasks RENAME COLUMN name TO Name;

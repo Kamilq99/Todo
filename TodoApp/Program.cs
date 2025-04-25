@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using TodoApp.Data;
+using TodoApp.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +11,9 @@ builder.Services.AddDbContext<TodoDbContext>(options => options.UseNpgsql(builde
 
 var app = builder.Build();
 
+app.UseMiddleware<LoggingMiddleware>();
+
+app.UseAuthorization();
 app.MapControllers();
 
 app.Run("http://localhost:5000");
